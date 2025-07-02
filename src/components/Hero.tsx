@@ -12,8 +12,8 @@ export default function Hero() {
               <span className="block text-plant-green">домашних растений</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Качественные горшечные растения для вашего бизнеса. Минимальная
-              партия от 50 штук. Доставка по всей России.
+              Качественные горшечные растения для вашего бизнеса. Огромный выбор
+              под заказ.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
@@ -42,9 +42,7 @@ export default function Hero() {
                 className="w-full h-auto rounded-lg shadow-xl"
               />
             </div>
-            <div className="absolute -top-4 -right-4 bg-plant-orange text-white px-4 py-2 rounded-full font-semibold">
-              От 50 шт
-            </div>
+            <div className="absolute -top-4 -right-4 bg-plant-orange text-white px-4 py-2 rounded-full font-semibold"></div>
           </div>
         </div>
       </div>
