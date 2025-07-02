@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-center text-green-500">
               Оптовая продажа
               <span className="block text-plant-green">домашних растений</span>
             </h1>
