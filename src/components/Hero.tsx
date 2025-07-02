@@ -42,7 +42,6 @@ export default function Hero() {
                 className="w-full h-auto rounded-lg shadow-xl"
               />
             </div>
-            <div className="absolute -top-4 -right-4 bg-plant-orange text-white px-4 py-2 rounded-full font-semibold"></div>
           </div>
         </div>
       </div>

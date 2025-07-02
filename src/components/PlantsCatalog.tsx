@@ -7,8 +7,6 @@ const plants = [
     id: 1,
     name: "Монстера деликатесная",
     category: "Крупнолистные",
-    price: "450 ₽",
-    minOrder: "от 50 шт",
     image: "/placeholder.svg",
     description: "Популярное декоративное растение с крупными резными листьями",
   },
@@ -16,8 +14,6 @@ const plants = [
     id: 2,
     name: "Фикус Бенджамина",
     category: "Деревья",
-    price: "320 ₽",
-    minOrder: "от 100 шт",
     image: "/placeholder.svg",
     description: "Классическое офисное растение, неприхотливое в уходе",
   },
@@ -25,8 +21,6 @@ const plants = [
     id: 3,
     name: "Сансевиерия",
     category: "Суккуленты",
-    price: "280 ₽",
-    minOrder: "от 75 шт",
     image: "/placeholder.svg",
     description: "Очищает воздух, идеально для офисов и жилых помещений",
   },
@@ -34,8 +28,6 @@ const plants = [
     id: 4,
     name: "Потос золотистый",
     category: "Ампельные",
-    price: "200 ₽",
-    minOrder: "от 100 шт",
     image: "/placeholder.svg",
     description: "Быстрорастущее вьющееся растение с яркими листьями",
   },
@@ -67,27 +59,15 @@ export default function PlantsCatalog() {
                   alt={plant.name}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-3 right-3 bg-plant-orange text-white px-2 py-1 rounded-full text-sm font-medium">
-                  {plant.minOrder}
-                </div>
               </div>
 
               <CardHeader className="pb-3">
-                <div className="flex justify-between items-start">
-                  <div>
-                    <CardTitle className="text-lg font-semibold text-gray-900 mb-1">
-                      {plant.name}
-                    </CardTitle>
-                    <p className="text-sm text-plant-green font-medium">
-                      {plant.category}
-                    </p>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-2xl font-bold text-plant-orange">
-                      {plant.price}
-                    </p>
-                  </div>
-                </div>
+                <CardTitle className="text-lg font-semibold text-gray-900 mb-1">
+                  {plant.name}
+                </CardTitle>
+                <p className="text-sm text-plant-green font-medium">
+                  {plant.category}
+                </p>
               </CardHeader>
 
               <CardContent className="pt-0">
